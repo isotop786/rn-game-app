@@ -1,10 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+import { globalStyles } from '../styles/global'
 
 const About = () => {
   return (
     <View>
-      <Text>About</Text>
+      <Text style={globalStyles.titleText}>About</Text>
     </View>
   )
 }
